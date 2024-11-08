@@ -41,11 +41,33 @@
     transition: transform 0.5s;
 }
 
-.nav-menu li:hover {
+/* .nav-menu li:hover {
     border-radius: 5px;
     background: linear-gradient(310deg, #1c1c31 0.36%, #087617);
+} */
+
+.anchor-link:hover{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    background: linear-gradient(310deg, #68687b 0.36%, #087617);
+    border-radius: 4px;
+    width: 80px;
+    text-align: center;
 }
 
+
+.anchor-link:focus{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    background: linear-gradient(310deg, #7171a7 0.36%, #c0b10c);
+    border-radius: 4px;
+    width: 80px;
+    text-align: center;
+    height: 30px;
+    padding-top: 5px;
+}
 .Navbar img {
     width: 110px;
     background: transparent;

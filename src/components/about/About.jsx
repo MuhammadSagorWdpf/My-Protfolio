@@ -15,8 +15,11 @@ const About = () => {
           <img src={profil} alt="Profile" />
         </div>
         <div className="about-right">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-          <p>Suspendisse varius enim in eros elementum tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        <h2> Hi, I'm <span>Muhammad Sagor !</span> </h2>
+          <p className='sagor'>I’m a passionate web developer with a strong foundation in mathematics from the National University, now embarking on my journey in the tech world. I’m currently a Trainee at the <span>ISDB-BISEW IT Scholarship Program,</span> where I’m honing my skills and building real-world applications.
+
+With a keen interest in both front-end and back-end development, I’ve worked with a variety of technologies to create dynamic and responsive web experiences. Whether it's building a sleek UI or optimizing server-side code, I love the challenge of solving problems and bringing ideas to life on the web.</p>
+          
           <div className="about-skills">
             <div className="about-skill">
               <p>PHP</p>

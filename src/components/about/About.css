@@ -43,7 +43,27 @@
     padding-left: 10px; 
     padding-top: 10px;
 }
+.sagor{
+    padding-top: 20px;
+}
+.sagor span{
+    background: linear-gradient(310deg, #7d7db5 0.36%, #d76508);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about-right p{
+    text-align: justify;
+    font-size: 20px;
+    
+}
 
+.about-right h2 span {
+    background: linear-gradient(310deg, #7d7db5 0.36%, #087617);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .about-skills {
     margin-top: 20px; 
 }
@@ -59,6 +79,7 @@
     width: 100%;
     justify-content: space-around;
     margin-bottom: 80px;
+    padding-top: 50px;
    
 }
 
